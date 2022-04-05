@@ -25,3 +25,9 @@ console.log(Age == Math.floor(24.9))
 //user input
 
 var name = window.prompt("Enter name: "); alert("your name is " + name);
+
+
+let base = window.prompt("Enter Base: ")
+let height  = window.prompt("Enter height: ")
+
+alert("your area is : "+  base * height* 0.5)
