@@ -48,3 +48,15 @@ for(let i = 0; i< 9; i++)
 {
     console.log(results[i])
 }
+
+
+const today = new Date()
+
+console.log(today.Year)
+console.log(today.getMonth) +1
+console.log(today.getDay)
+console.log(today.getDate)
+console.log(today.getHours)
+console.log(today.getMinutes)
+console.log(today.getSeconds)
+console.log(today.getTime)
