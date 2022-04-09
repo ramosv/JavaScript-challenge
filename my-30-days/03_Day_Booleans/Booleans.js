@@ -60,3 +60,16 @@ console.log(today.getHours)
 console.log(today.getMinutes)
 console.log(today.getSeconds)
 console.log(today.getTime)
+
+
+let a = windows.prompt("Enter side a: ")
+let b = windows.prompt("Enter side b: ")
+let c = windows.prompt("Enter side c: ")
+
+alert("The perimeter of the triangle is: " +a+b+c)
+
+const PI = 3.14
+let radius = windows.prompt("Enter radius: ")
+let area = PI * r * r
+
+//Calculate the slope
