@@ -22,11 +22,13 @@ let price = 0;
 
 if (people > 5) {
     let price = (ticket * people)
-    alert()
+    let discount = (price * .20)
+    let total = price - discount
+    alert(`Your total is ${total} , you saved ${discount}`)
 }
 else {
     let price = (ticlet * people)
-    alert()
+    alert(`Your total is ${price}`)
 }
 
 //excersise level2
