@@ -29,3 +29,27 @@ else {
     alert()
 }
 
+//excersise level2
+//Grading students
+
+let grade = promp('What did you get in the exam?')
+
+if (grade >= 90) {
+
+    alert("A")
+}
+else if (grade >= 80) {
+    alert("B")
+
+}
+else if (grade >= 70) {
+    alert("C")
+
+}
+else if (grade >= 60) {
+    alert("D")
+
+}
+else {
+    alert("F")
+}
